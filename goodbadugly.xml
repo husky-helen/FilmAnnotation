@@ -1,0 +1,2684 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+	<version>0.1</version>
+	<project path="">
+		<icons path="Icons"/>
+		<video id="1" path="https://www.youtube.com/watch?v=g6tR78d0cmA"/>
+	</project>
+	<header>
+		<actor icon="MissingIcon" id="0" name="Blondie" type="person">
+			<part pt-name="Head" pt-type="Head"/>
+			<part pt-name="LeftEye" pt-type="LeftEye"/>
+			<part pt-name="RightEye" pt-type="RightEye"/>
+			<part pt-name="Gaze" pt-type="Gaze"/>
+			<part pt-name="LHand" pt-type="LHand"/>
+			<part pt-name="RHand" pt-type="RHand"/>
+			<part pt-name="RFoot" pt-type="RFoot"/>
+			<part pt-name="LFoot" pt-type="LFoot"/>
+		</actor>
+		<actor icon="MissingIcon" id="1" name="Tuco" type="person">
+			<part pt-name="Head" pt-type="Head"/>
+			<part pt-name="LeftEye" pt-type="LeftEye"/>
+			<part pt-name="RightEye" pt-type="RightEye"/>
+			<part pt-name="Gaze" pt-type="Gaze"/>
+			<part pt-name="LHand" pt-type="LHand"/>
+			<part pt-name="RHand" pt-type="RHand"/>
+			<part pt-name="RFoot" pt-type="RFoot"/>
+			<part pt-name="LFoot" pt-type="LFoot"/>
+		</actor>
+		<actor icon="MissingIcon" id="2" name="Angel Eyes" type="person">
+			<part pt-name="Head" pt-type="Head"/>
+			<part pt-name="LeftEye" pt-type="LeftEye"/>
+			<part pt-name="RightEye" pt-type="RightEye"/>
+			<part pt-name="Gaze" pt-type="Gaze"/>
+			<part pt-name="LHand" pt-type="LHand"/>
+			<part pt-name="RHand" pt-type="RHand"/>
+			<part pt-name="RFoot" pt-type="RFoot"/>
+			<part pt-name="LFoot" pt-type="LFoot"/>
+		</actor>
+		<actor icon="MissingIcon" id="3" name="Gun" type="thing">
+			<part pt-name="Body" pt-type="Body"/>
+		</actor>
+		<actor icon="Actors\Rock.png" id="4" name="Rock" type="thing">
+			<part pt-name="Body" pt-type="Body"/>
+		</actor>
+		<source>Manual Annotation from Movies !</source>
+		<video fps="24.0" framing="16/9" id="1">
+			<file>https://www.youtube.com/watch?v=g6tR78d0cmA</file>
+		</video>
+	</header>
+	<frames>
+		<frame id="0" refVideo="1" timeId="0">
+		</frame>
+		<frame id="1" refVideo="1" timeId="9024">
+		</frame>
+		<frame id="2" refVideo="1" timeId="19">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.52513784" y="0.20565173"/>
+					<orientation azimuth="12.000123" elevation="3.0"/>
+					<scale relHeight="0.07521727"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="LS">LS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="3" refVideo="1" timeId="483">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.7432751" y="0.24507824"/>
+					<orientation azimuth="-24.99989" elevation="-7.0"/>
+					<scale relHeight="0.2723499"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.36764702" y="0.23655914"/>
+					<orientation azimuth="-117.99995" elevation="2.0"/>
+					<scale relHeight="0.032258093"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.14460786" y="0.23476699"/>
+					<orientation azimuth="34.999992" elevation="1.0"/>
+					<scale relHeight="0.04121861"/>
+				</onScreenPart>
+			</actor>
+		</frame>
+		<frame id="4" refVideo="1" timeId="535">
+			<actor refId="4">
+				<onScreenPart part="Head">
+					<position x="0.0" y="0.0"/>
+					<scale relHeight="1.0"/>
+				</onScreenPart>
+				<onScreenPart part="Body">
+					<position x="0.51960784" y="0.5394265"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MCU">MCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="5" refVideo="1" timeId="598">
+			<actor refId="4">
+				<onScreenPart part="Head">
+					<position x="0.0" y="0.0"/>
+					<scale relHeight="1.0"/>
+				</onScreenPart>
+				<onScreenPart part="Body">
+					<position x="0.52818626" y="0.53405017"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="6" refVideo="1" timeId="670">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.5098039" y="0.32258058"/>
+					<orientation azimuth="165.00002" elevation="5.0"/>
+					<scale relHeight="0.39605734"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.60784316" y="0.34408602"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.53431374" y="0.31182796"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MCU">MCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="7" refVideo="1" timeId="712">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.5130668" y="0.2941308"/>
+					<orientation azimuth="180.0" elevation="2.0"/>
+					<scale relHeight="0.49465835"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5563725" y="0.37634408"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.48039216" y="0.38530466"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MCU">MCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="8" refVideo="1" timeId="898">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.29860607" y="0.24574372"/>
+					<orientation azimuth="61.000088" elevation="2.0"/>
+					<scale relHeight="0.07351141"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.91544116" y="0.22043005"/>
+					<orientation azimuth="335.99997" elevation="-4.0"/>
+					<scale relHeight="0.069892436"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.6391084" y="0.241494"/>
+					<orientation azimuth="-177.99982" elevation="13.0"/>
+					<scale relHeight="0.019661695"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="LS">LS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="9" refVideo="1" timeId="1012">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.5650736" y="0.1781441"/>
+					<orientation azimuth="189.99998" elevation="9.0"/>
+					<scale relHeight="0.2389981"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.564951" y="0.17562725"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.5232843" y="0.19892474"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MS">MS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="10" refVideo="1" timeId="1127">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.44018078" y="0.15308744"/>
+					<orientation azimuth="160.99998" elevation="5.0"/>
+					<scale relHeight="0.19826725"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.49142158" y="0.17562725"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.46568626" y="0.17741935"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MS">MS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="11" refVideo="1" timeId="1380">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.413894" y="0.13898772"/>
+					<orientation azimuth="77.000046" elevation="1.0"/>
+					<scale relHeight="0.28858647"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.88448226" y="0.23755407"/>
+					<orientation azimuth="180.0" elevation="0.0"/>
+					<scale relHeight="0.2079413"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MS">MS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="12" refVideo="1" timeId="1445">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.52910537" y="0.07858294"/>
+					<orientation azimuth="189.99998" elevation="0.0"/>
+					<scale relHeight="0.11410445"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.53063726" y="0.08064516"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.5122549" y="0.08781362"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MLS">MLS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="13" refVideo="1" timeId="1483">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.52786475" y="0.30027807"/>
+					<orientation azimuth="180.0" elevation="0.0"/>
+					<scale relHeight="0.7133177"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.58455884" y="0.41935483"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.48406863" y="0.41039425"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="CU">CU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="14" refVideo="1" timeId="1564">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.4751685" y="0.3558336"/>
+					<orientation azimuth="193.0001" elevation="6.0"/>
+					<scale relHeight="0.5574037"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.48161766" y="0.42293906"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.37990198" y="0.4516129"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="CU">CU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="15" refVideo="1" timeId="1666">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.52786475" y="0.30027807"/>
+					<orientation azimuth="180.0" elevation="0.0"/>
+					<scale relHeight="0.7133177"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.59436274" y="0.44623655"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.5" y="0.44265231"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="CU">CU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="16" refVideo="1" timeId="1832">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.8617187" y="0.2779952"/>
+					<orientation azimuth="180.0" elevation="0.0"/>
+					<scale relHeight="0.21331763"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.44505203" y="0.17405257"/>
+					<orientation azimuth="60.000023" elevation="-5.0"/>
+					<scale relHeight="0.3047155"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MS">MS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="17" refVideo="1" timeId="1896">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.73549324" y="0.2529056"/>
+					<orientation azimuth="-41.999977" elevation="3.0"/>
+					<scale relHeight="0.069948465"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.30657163" y="0.31921384"/>
+					<orientation azimuth="71.99994" elevation="9.0"/>
+					<scale relHeight="0.053819418"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.6320466" y="0.3151421"/>
+					<orientation azimuth="192.0" elevation="15.0"/>
+					<scale relHeight="0.01733026"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="LS">LS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="18" refVideo="1" timeId="2418">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.7533701" y="0.3169342"/>
+					<orientation azimuth="192.0" elevation="15.0"/>
+					<scale relHeight="0.01733026"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.40706182" y="0.3263823"/>
+					<orientation azimuth="49.99996" elevation="8.0"/>
+					<scale relHeight="0.064572126"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.2465226" y="0.3066691"/>
+					<orientation azimuth="-208.99979" elevation="8.0"/>
+					<scale relHeight="0.03589827"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="LS">LS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="19" refVideo="1" timeId="3253">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.8844975" y="0.41729262"/>
+					<orientation azimuth="229.99992" elevation="13.0"/>
+					<scale relHeight="0.0065775514"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.101914756" y="0.48946476"/>
+					<orientation azimuth="49.99996" elevation="8.0"/>
+					<scale relHeight="0.0018481016"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.5394147" y="0.36760098"/>
+					<orientation azimuth="-156.99963" elevation="7.0"/>
+					<scale relHeight="0.0018480718"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="EST">EST</property>
+				<property name="angle" type="string" value="Bird">Bird</property>
+			</Properties>
+		</frame>
+		<frame id="20" refVideo="1" timeId="3381">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.6908701" y="0.45492706"/>
+					<orientation azimuth="178.99997" elevation="14.0"/>
+					<scale relHeight="0.0047854483"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.8126991" y="0.47871202"/>
+					<orientation azimuth="-19.000065" elevation="16.0"/>
+					<scale relHeight="0.0126007795"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.22936568" y="0.4428698"/>
+					<orientation azimuth="-259.9996" elevation="5.0"/>
+					<scale relHeight="0.0036402047"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="EST">EST</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="21" refVideo="1" timeId="3489">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.477788" y="0.08189702"/>
+					<orientation azimuth="180.0" elevation="16.0"/>
+					<scale relHeight="0.17528787"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.49019608" y="0.09677419"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.46568626" y="0.09498208"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MLS">MLS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="22" refVideo="1" timeId="3580">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.50021446" y="0.13088368"/>
+					<orientation azimuth="180.0" elevation="5.0"/>
+					<scale relHeight="0.17619678"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5110294" y="0.1218638"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.47671568" y="0.12007169"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MLS">MLS</property>
+				<property name="angle" type="string" value="Low">Low</property>
+			</Properties>
+		</frame>
+		<frame id="23" refVideo="1" timeId="3673">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.66023284" y="0.09112775"/>
+					<orientation azimuth="209.99995" elevation="12.0"/>
+					<scale relHeight="0.16249155"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.6507353" y="0.086021505"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.6262255" y="0.09677419"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MLS">MLS</property>
+				<property name="angle" type="string" value="Low">Low</property>
+			</Properties>
+		</frame>
+		<frame id="24" refVideo="1" timeId="3748">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.8844975" y="0.29722092"/>
+					<orientation azimuth="290.0" elevation="7.0"/>
+					<scale relHeight="0.40801126"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.18734677" y="0.44032"/>
+					<orientation azimuth="186.00008" elevation="3.0"/>
+					<scale relHeight="0.021166027"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="LS">LS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+				<property name="shot-type" type="string" value="OTS">OTS</property>
+			</Properties>
+		</frame>
+		<frame id="25" refVideo="1" timeId="3831">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.37852326" y="0.2790297"/>
+					<orientation azimuth="61.0" elevation="6.0"/>
+					<scale relHeight="0.50682914"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.8409008" y="0.354898"/>
+					<orientation azimuth="153.00005" elevation="9.0"/>
+					<scale relHeight="0.016698599"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="LS">LS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+				<property name="shot-type" type="string" value="OTS">OTS</property>
+			</Properties>
+		</frame>
+		<frame id="26" refVideo="1" timeId="3926">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.8507353" y="0.29600197"/>
+					<orientation azimuth="160.00003" elevation="19.0"/>
+					<scale relHeight="0.03272003"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.21593133" y="0.33722064"/>
+					<orientation azimuth="60.0001" elevation="8.0"/>
+					<scale relHeight="0.43594587"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="LS">LS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+				<property name="shot-type" type="string" value="OTS">OTS</property>
+			</Properties>
+		</frame>
+		<frame id="27" refVideo="1" timeId="3994">
+			<actor refId="3">
+				<onScreenPart part="Head">
+					<position x="0.0" y="0.0"/>
+					<scale relHeight="1.0"/>
+				</onScreenPart>
+				<onScreenPart part="Body">
+					<position x="0.61151963" y="0.55376345"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="CU">CU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="28" refVideo="1" timeId="4076">
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.1764706" y="0.39247313"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="CU">CU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="29" refVideo="1" timeId="4147">
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.3762255" y="0.40681005"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="CU">CU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="30" refVideo="1" timeId="4230">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.4748928" y="0.2533207"/>
+					<orientation azimuth="180.0" elevation="6.0"/>
+					<scale relHeight="0.45730117"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.51715684" y="0.3154122"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.44117647" y="0.32258064"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MCU">MCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="31" refVideo="1" timeId="4292">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.534712" y="0.32252133"/>
+					<orientation azimuth="180.0" elevation="19.0"/>
+					<scale relHeight="0.35723063"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5502451" y="0.27598566"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.4852941" y="0.2956989"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MCU">MCU</property>
+				<property name="angle" type="string" value="Low">Low</property>
+			</Properties>
+		</frame>
+		<frame id="32" refVideo="1" timeId="4368">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.5112592" y="0.38534415"/>
+					<orientation azimuth="180.0" elevation="8.0"/>
+					<scale relHeight="0.41593868"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.54656863" y="0.3673835"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.4595588" y="0.36200717"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MCU">MCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="33" refVideo="1" timeId="4422">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.6278493" y="0.31893706"/>
+					<orientation azimuth="206.99995" elevation="8.0"/>
+					<scale relHeight="0.93070734"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5183824" y="0.2562724"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.3529412" y="0.29032257"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="34" refVideo="1" timeId="4523">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.46959257" y="0.107566476"/>
+					<orientation azimuth="180.0" elevation="8.0"/>
+					<scale relHeight="1.0037522"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.58455884" y="0.17562725"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.36642158" y="0.17921147"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="35" refVideo="1" timeId="4632">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.5312653" y="0.16729921"/>
+					<orientation azimuth="180.0" elevation="6.0"/>
+					<scale relHeight="1.1239681"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.6213235" y="0.26344085"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.41789216" y="0.26523298"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="36" refVideo="1" timeId="4758">
+			<actor refId="3">
+				<onScreenPart part="Head">
+					<position x="0.0" y="0.0"/>
+					<orientation azimuth="0.0" elevation="0.0"/>
+					<scale relHeight="1.0"/>
+				</onScreenPart>
+				<onScreenPart part="Body">
+					<position x="0.46936274" y="0.27060932"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.61151963" y="0.52150536"/>
+					<orientation azimuth="-193.99991" elevation="11.0"/>
+					<scale relHeight="0.0017919838"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Low">Low</property>
+				<property name="shot-type" type="string" value="Cowboy">Cowboy</property>
+			</Properties>
+		</frame>
+		<frame id="37" refVideo="1" timeId="4854">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.5589001" y="0.13070577"/>
+					<orientation azimuth="184.00003" elevation="3.0"/>
+					<scale relHeight="1.0540558"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.6188725" y="0.15949821"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.39828432" y="0.15591398"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="38" refVideo="1" timeId="4921">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.44425547" y="0.19597304"/>
+					<orientation azimuth="180.0" elevation="6.0"/>
+					<scale relHeight="1.1239681"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.54901963" y="0.26702508"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.35171568" y="0.25268817"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="39" refVideo="1" timeId="4952">
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.79901963" y="0.47132617"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="40" refVideo="1" timeId="5020">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.6029411" y="0.21326163"/>
+					<orientation azimuth="-168.99992" elevation="6.0"/>
+					<scale relHeight="1.0"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5808824" y="0.24014337"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.40808824" y="0.28494623"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="41" refVideo="1" timeId="5084">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.5153339" y="0.1547544"/>
+					<orientation azimuth="176.00002" elevation="10.0"/>
+					<scale relHeight="1.1239681"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.625" y="0.18817204"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.4387255" y="0.20430107"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="42" refVideo="1" timeId="5158">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.5870404" y="0.17435563"/>
+					<orientation azimuth="196.99997" elevation="0.0"/>
+					<scale relHeight="1.0265017"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5269608" y="0.24193548"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.35049018" y="0.2921147"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="43" refVideo="1" timeId="5237">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.5067555" y="0.21568632"/>
+					<orientation azimuth="176.00002" elevation="10.0"/>
+					<scale relHeight="1.1239681"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.62009805" y="0.24910395"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.43504903" y="0.26702508"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="44" refVideo="1" timeId="5317">
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.35171568" y="0.11469534"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="45" refVideo="1" timeId="5358">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.5589001" y="0.13070577"/>
+					<orientation azimuth="185.00002" elevation="5.0"/>
+					<scale relHeight="1.0540558"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.6433824" y="0.1845878"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.42647058" y="0.18100359"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="46" refVideo="1" timeId="5421">
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.79901963" y="0.41756272"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="47" refVideo="1" timeId="5504">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.5552237" y="0.26511437"/>
+					<orientation azimuth="185.00002" elevation="5.0"/>
+					<scale relHeight="1.0540558"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.64460784" y="0.20071685"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.42156863" y="0.20788531"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="48" refVideo="1" timeId="5561">
+			<actor refId="3">
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="49" refVideo="1" timeId="5601">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.5858149" y="0.23528752"/>
+					<orientation azimuth="196.99997" elevation="0.0"/>
+					<scale relHeight="1.0265017"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5514706" y="0.1953405"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.38602942" y="0.26523298"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="50" refVideo="1" timeId="5653">
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.8308824" y="0.51792115"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="51" refVideo="1" timeId="5701">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.48161763" y="0.17866462"/>
+					<orientation azimuth="180.0" elevation="5.0"/>
+					<scale relHeight="1.1032851"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5857843" y="0.18996416"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.35539216" y="0.18817204"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="52" refVideo="1" timeId="5754">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.5882659" y="0.19944522"/>
+					<orientation azimuth="196.99997" elevation="0.0"/>
+					<scale relHeight="1.0265017"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.54656863" y="0.25089607"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.3529412" y="0.28494623"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="53" refVideo="1" timeId="5859">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.47489274" y="0.22823113"/>
+					<orientation azimuth="176.00002" elevation="10.0"/>
+					<scale relHeight="1.1239681"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.6066176" y="0.22939068"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.4240196" y="0.23297492"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="54" refVideo="1" timeId="5932">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.58949137" y="0.23349538"/>
+					<orientation azimuth="196.99997" elevation="0.0"/>
+					<scale relHeight="1.0265017"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="55" refVideo="1" timeId="6043">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.5220588" y="0.13744599"/>
+					<orientation azimuth="183.99998" elevation="7.0"/>
+					<scale relHeight="1.1910988"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5882353" y="0.20430107"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.3762255" y="0.17383513"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="56" refVideo="1" timeId="6159">
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.8125" y="0.4784946"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="57" refVideo="1" timeId="6299">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.4898438" y="0.05239308"/>
+					<orientation azimuth="180.0" elevation="7.0"/>
+					<scale relHeight="1.2522156"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5857843" y="0.12903225"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.35171568" y="0.11827957"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="58" refVideo="1" timeId="6344">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.51106036" y="0.26396134"/>
+					<orientation azimuth="183.99995" elevation="6.0"/>
+					<scale relHeight="1.0265017"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.57843137" y="0.27598566"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.375" y="0.30645162"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="59" refVideo="1" timeId="6375">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.5453585" y="0.09302527"/>
+					<orientation azimuth="179.99995" elevation="0.0"/>
+					<scale relHeight="1.2306434"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.6433824" y="0.24193548"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.4644608" y="0.24910395"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="60" refVideo="1" timeId="6421">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.51067716" y="0.11511713"/>
+					<orientation azimuth="180.0" elevation="7.0"/>
+					<scale relHeight="1.2522156"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.6262255" y="0.19175628"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.41666666" y="0.1953405"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="61" refVideo="1" timeId="6491">
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.7941176" y="0.3691756"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="62" refVideo="1" timeId="6636">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.5413144" y="0.08823544"/>
+					<orientation azimuth="180.0" elevation="7.0"/>
+					<scale relHeight="2.2808895"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.7107843" y="0.26164874"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.3137255" y="0.23476702"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="63" refVideo="1" timeId="6650">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.471201" y="0.015648067"/>
+					<orientation azimuth="180.0" elevation="0.0"/>
+					<scale relHeight="1.9971564"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.6605392" y="0.27419356"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.31985295" y="0.2956989"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="64" refVideo="1" timeId="6684">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.54004294" y="0.035064816"/>
+					<orientation azimuth="179.00002" elevation="3.0"/>
+					<scale relHeight="2.142527"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.75735295" y="0.281362"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.36764705" y="0.2562724"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="65" refVideo="1" timeId="6726">
+			<actor refId="3">
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="66" refVideo="1" timeId="6756">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.51553315" y="0.08524403"/>
+					<orientation azimuth="179.00002" elevation="3.0"/>
+					<scale relHeight="2.142527"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.72794116" y="0.33512545"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.3345588" y="0.3154122"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="67" refVideo="1" timeId="6787">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.51225495" y="0.23170325"/>
+					<orientation azimuth="180.0" elevation="6.0"/>
+					<scale relHeight="2.5765884"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.75980395" y="0.41218638"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.2647059" y="0.41577062"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="68" refVideo="1" timeId="6824">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.51776963" y="0.12675917"/>
+					<orientation azimuth="180.0" elevation="0.0"/>
+					<scale relHeight="1.9971564"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.70710784" y="0.3781362"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.38357842" y="0.39426523"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="69" refVideo="1" timeId="6847">
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.7977941" y="0.4139785"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="70" refVideo="1" timeId="6861">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.540043" y="0.052985996"/>
+					<orientation azimuth="179.00002" elevation="3.0"/>
+					<scale relHeight="2.142527"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.7732843" y="0.2795699"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.35784313" y="0.25268817"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="71" refVideo="1" timeId="6867">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.5134804" y="0.20123729"/>
+					<orientation azimuth="180.0" elevation="6.0"/>
+					<scale relHeight="2.5765884"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.7536765" y="0.37992832"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.2769608" y="0.38351256"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="72" refVideo="1" timeId="6885">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.5165441" y="0.16080937"/>
+					<orientation azimuth="180.0" elevation="0.0"/>
+					<scale relHeight="1.9971564"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.67156863" y="0.42293906"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.3394608" y="0.44265231"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="73" refVideo="1" timeId="6890">
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.33578432" y="0.09498208"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="74" refVideo="1" timeId="6905">
+			<actor refId="3">
+				<onScreenPart part="Head">
+					<position x="0.0" y="0.0"/>
+					<orientation azimuth="0.0" elevation="0.0"/>
+					<scale relHeight="1.0"/>
+				</onScreenPart>
+				<onScreenPart part="Body">
+					<position x="0.7732843" y="0.47132617"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="75" refVideo="1" timeId="6909">
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.7377451" y="0.49462366"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="76" refVideo="1" timeId="6924">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.48869485" y="0.12151465"/>
+					<orientation azimuth="180.0" elevation="0.0"/>
+					<scale relHeight="2.3178508"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.7316176" y="0.42293906"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.2389706" y="0.44444445"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="77" refVideo="1" timeId="6931">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.536152" y="0.110630155"/>
+					<orientation azimuth="180.0" elevation="0.0"/>
+					<scale relHeight="1.9971564"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.7058824" y="0.38709676"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.3615196" y="0.38172042"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="78" refVideo="1" timeId="6943">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.51102936" y="0.13978493"/>
+					<orientation azimuth="-179.99988" elevation="5.0"/>
+					<scale relHeight="2.2885299"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.7144608" y="0.34946236"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.33333334" y="0.32078853"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="79" refVideo="1" timeId="6956">
+			<actor refId="3">
+				<onScreenPart part="Head">
+					<position x="0.0" y="0.0"/>
+					<scale relHeight="1.0"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="80" refVideo="1" timeId="6961">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.5067402" y="0.1249671"/>
+					<orientation azimuth="180.0" elevation="0.0"/>
+					<scale relHeight="1.2104173"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5882353" y="0.2777778"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.3970588" y="0.28315413"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="81" refVideo="1" timeId="6968">
+			<actor refId="3">
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="XCU">XCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="82" refVideo="1" timeId="6980">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.6529106" y="0.08208812"/>
+					<orientation azimuth="200.00009" elevation="4.0"/>
+					<scale relHeight="0.17806606"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.64705884" y="0.086021505"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.62009805" y="0.089605734"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="3">
+				<onScreenPart part="Head">
+					<position x="0.0" y="0.0"/>
+					<orientation azimuth="180.0" elevation="0.0"/>
+					<scale relHeight="1.0"/>
+				</onScreenPart>
+				<onScreenPart part="Body">
+					<position x="0.45588234" y="0.5788531"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MS">MS</property>
+				<property name="angle" type="string" value="Low">Low</property>
+			</Properties>
+		</frame>
+		<frame id="83" refVideo="1" timeId="6997">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.87594974" y="0.41542146"/>
+					<orientation azimuth="269.0" elevation="9.0"/>
+					<scale relHeight="0.0024387985"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.18198533" y="0.4600925"/>
+					<orientation azimuth="35.000027" elevation="4.0"/>
+					<scale relHeight="0.009700343"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.49264696" y="0.34229386"/>
+					<orientation azimuth="-180.99986" elevation="14.0"/>
+					<scale relHeight="0.0053757727"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="EST">EST</property>
+				<property name="angle" type="string" value="Bird">Bird</property>
+			</Properties>
+		</frame>
+		<frame id="84" refVideo="1" timeId="7051">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.2855391" y="0.7491039"/>
+					<orientation azimuth="-143.9998" elevation="-44.0"/>
+					<scale relHeight="0.04480225"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="VLS">VLS</property>
+				<property name="angle" type="string" value="High">High</property>
+			</Properties>
+		</frame>
+		<frame id="85" refVideo="1" timeId="7094">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.46262258" y="0.20919645"/>
+					<orientation azimuth="153.99994" elevation="-9.0"/>
+					<scale relHeight="0.25342795"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5183824" y="0.2777778"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.48284313" y="0.27240142"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.6605392" y="0.71684587"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MS">MS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="86" refVideo="1" timeId="7166">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.61982226" y="0.092840806"/>
+					<orientation azimuth="198.00005" elevation="10.0"/>
+					<scale relHeight="0.19957145"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.6139706" y="0.09318996"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.5870098" y="0.10752688"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="3">
+				<onScreenPart part="Head">
+					<position x="0.0" y="0.0"/>
+					<scale relHeight="1.0"/>
+				</onScreenPart>
+				<onScreenPart part="Body">
+					<position x="0.41666666" y="0.546595"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MS">MS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="87" refVideo="1" timeId="7212">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.54963243" y="0.27012834"/>
+					<orientation azimuth="166.99992" elevation="0.0"/>
+					<scale relHeight="0.28210175"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5992647" y="0.33691755"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.56740195" y="0.31182796"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.6727941" y="0.7096774"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MCU">MCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="88" refVideo="1" timeId="7394">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.5612744" y="0.18637991"/>
+					<orientation azimuth="-141.99979" elevation="-19.0"/>
+					<scale relHeight="1.0430102"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.47916666" y="0.49103943"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.3492647" y="0.75268817"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="High">High</property>
+			</Properties>
+		</frame>
+		<frame id="89" refVideo="1" timeId="7465">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.6177084" y="0.09908679"/>
+					<orientation azimuth="180.0" elevation="10.0"/>
+					<scale relHeight="0.18104444"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.61764705" y="0.10752688"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.59436274" y="0.11648746"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.43137255" y="0.4247312"/>
+				</onScreenPart>
+			</actor>
+		</frame>
+		<frame id="90" refVideo="1" timeId="7558">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.49345896" y="0.7178739"/>
+					<orientation azimuth="-5.999913" elevation="44.0"/>
+					<scale relHeight="0.0969075"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.93014705" y="0.66845876"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="LS">LS</property>
+				<property name="angle" type="string" value="Bird">Bird</property>
+			</Properties>
+		</frame>
+		<frame id="91" refVideo="1" timeId="7606">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.55424327" y="0.11020847"/>
+					<orientation azimuth="180.0" elevation="0.0"/>
+					<scale relHeight="0.24275653"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.57965684" y="0.15412186"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.5392157" y="0.1469534"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MS">MS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="92" refVideo="1" timeId="7638">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.7010417" y="0.17973194"/>
+					<orientation azimuth="209.9999" elevation="6.0"/>
+					<scale relHeight="1.1577475"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5085784" y="0.24731183"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.34681374" y="0.2777778"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="BCU">BCU</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="93" refVideo="1" timeId="7676">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.56133574" y="0.14747387"/>
+					<orientation azimuth="210.99988" elevation="8.0"/>
+					<scale relHeight="0.12907305"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5514706" y="0.16129032"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.5392157" y="0.16487455"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.41666666" y="0.5878136"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MLS">MLS</property>
+				<property name="angle" type="string" value="Low">Low</property>
+			</Properties>
+		</frame>
+		<frame id="94" refVideo="1" timeId="7791">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.67282474" y="0.12953958"/>
+					<orientation azimuth="205.00005" elevation="13.0"/>
+					<scale relHeight="0.26348174"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.63480395" y="0.12544803"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.5992647" y="0.13620071"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MCU">MCU</property>
+				<property name="angle" type="string" value="Low">Low</property>
+			</Properties>
+		</frame>
+		<frame id="95" refVideo="1" timeId="7844">
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.46037072" y="0.65694195"/>
+					<orientation azimuth="-349.99982" elevation="44.0"/>
+					<scale relHeight="0.0969075"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="3">
+				<onScreenPart part="Head">
+					<position x="0.0" y="0.0"/>
+					<orientation azimuth="180.0" elevation="0.0"/>
+					<scale relHeight="1.0"/>
+				</onScreenPart>
+				<onScreenPart part="Body">
+					<position x="0.77205884" y="0.6308244"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="LS">LS</property>
+				<property name="angle" type="string" value="Bird">Bird</property>
+			</Properties>
+		</frame>
+		<frame id="96" refVideo="1" timeId="7870">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.47694546" y="0.11903067"/>
+					<orientation azimuth="154.00003" elevation="-1.0"/>
+					<scale relHeight="0.22088149"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.51715684" y="0.1469534"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.49509802" y="0.14157706"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MS">MS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="97" refVideo="1" timeId="7901">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.66839767" y="0.06427896"/>
+					<orientation azimuth="215.00002" elevation="9.0"/>
+					<scale relHeight="0.20673998"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.622549" y="0.05734767"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.5980392" y="0.07526882"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MS">MS</property>
+				<property name="angle" type="string" value="Low">Low</property>
+			</Properties>
+		</frame>
+		<frame id="98" refVideo="1" timeId="7940">
+			<actor refId="3">
+				<onScreenPart part="Head">
+					<position x="0.0" y="0.0"/>
+					<orientation azimuth="180.0" elevation="0.0"/>
+					<scale relHeight="1.0"/>
+				</onScreenPart>
+				<onScreenPart part="Body">
+					<position x="0.6213235" y="0.58064514"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="2">
+				<onScreenPart part="Head">
+					<position x="0.45791972" y="0.6874079"/>
+					<orientation azimuth="-349.99982" elevation="44.0"/>
+					<scale relHeight="0.0969075"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="LS">LS</property>
+				<property name="angle" type="string" value="Bird">Bird</property>
+			</Properties>
+		</frame>
+		<frame id="99" refVideo="1" timeId="8167">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.5360448" y="0.1807664"/>
+					<orientation azimuth="177.00005" elevation="20.0"/>
+					<scale relHeight="0.2784246"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MCU">MCU</property>
+				<property name="angle" type="string" value="Low">Low</property>
+			</Properties>
+		</frame>
+		<frame id="100" refVideo="1" timeId="8206">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.49174327" y="0.102302074"/>
+					<orientation azimuth="180.0" elevation="-1.0"/>
+					<scale relHeight="0.22541554"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.5122549" y="0.13082437"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.48161766" y="0.11827957"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.55759805" y="0.77240145"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MS">MS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="101" refVideo="1" timeId="8255">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.56300557" y="0.18972698"/>
+					<orientation azimuth="178.00003" elevation="0.0"/>
+					<scale relHeight="0.2784246"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.55759805" y="0.21326165"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.51715684" y="0.22939068"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MCU">MCU</property>
+				<property name="angle" type="string" value="Low">Low</property>
+			</Properties>
+		</frame>
+		<frame id="102" refVideo="1" timeId="8307">
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.49097732" y="0.113423735"/>
+					<orientation azimuth="167.99998" elevation="1.0"/>
+					<scale relHeight="0.21438563"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.51348037" y="0.14516129"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.4865196" y="0.12903225"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="3">
+				<onScreenPart part="Body">
+					<position x="0.5502451" y="0.7455197"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MS">MS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="103" refVideo="1" timeId="8492">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.6463389" y="0.31517503"/>
+					<orientation azimuth="223.00006" elevation="3.0"/>
+					<scale relHeight="0.22466114"/>
+				</onScreenPart>
+				<onScreenPart part="LeftEye">
+					<position x="0.622549" y="0.3172043"/>
+				</onScreenPart>
+				<onScreenPart part="RightEye">
+					<position x="0.5955882" y="0.33512545"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MS">MS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="104" refVideo="1" timeId="8629">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.34857538" y="0.17992306"/>
+					<orientation azimuth="165.99997" elevation="1.0"/>
+					<scale relHeight="0.21595204"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.86083025" y="0.37705564"/>
+					<orientation azimuth="270.0" elevation="12.0"/>
+					<scale relHeight="0.25896278"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="4">
+				<onScreenPart part="Body">
+					<position x="0.40563726" y="0.95519716"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="MS">MS</property>
+				<property name="angle" type="string" value="Eye">Eye</property>
+			</Properties>
+		</frame>
+		<frame id="105" refVideo="1" timeId="9022">
+			<actor refId="0">
+				<onScreenPart part="Head">
+					<position x="0.4613205" y="0.19963633"/>
+					<orientation azimuth="328.00006" elevation="0.0"/>
+					<scale relHeight="0.090504035"/>
+				</onScreenPart>
+			</actor>
+			<actor refId="1">
+				<onScreenPart part="Head">
+					<position x="0.3865655" y="0.30895528"/>
+					<orientation azimuth="350.0" elevation="-18.0"/>
+					<scale relHeight="0.0940882"/>
+				</onScreenPart>
+			</actor>
+			<Properties>
+				<property name="distance" type="string" value="LS">LS</property>
+				<property name="angle" type="string" value="High">High</property>
+			</Properties>
+		</frame>
+	</frames>
+	<shots>
+		<shot endFrame="316" id="1" startFrame="1">
+			<frame id="2"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="521" id="2" startFrame="317">
+			<frame id="3"/>
+			<Properties>
+				<property name="movement" type="string" value="Track">Track</property>
+			</Properties>
+		</shot>
+		<shot endFrame="630" id="3" startFrame="522">
+			<frame id="4"/>
+			<frame id="5"/>
+			<Properties>
+				<property name="movement" type="string" value="Zoom">Zoom</property>
+			</Properties>
+		</shot>
+		<shot endFrame="699" id="4" startFrame="631">
+			<frame id="6"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="768" id="5" startFrame="700">
+			<frame id="7"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="976" id="6" startFrame="769">
+			<frame id="8"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="1078" id="7" startFrame="977">
+			<frame id="9"/>
+			<Properties>
+				<property name="movement" type="string" value="Track">Track</property>
+			</Properties>
+		</shot>
+		<shot endFrame="1387" id="8" startFrame="1079">
+			<frame id="10"/>
+			<frame id="11"/>
+			<Properties>
+				<property name="movement" type="string" value="Track">Track</property>
+			</Properties>
+		</shot>
+		<shot endFrame="1459" id="9" startFrame="1388">
+			<frame id="12"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="1518" id="10" startFrame="1460">
+			<frame id="13"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="1627" id="11" startFrame="1519">
+			<frame id="14"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="1725" id="12" startFrame="1628">
+			<frame id="15"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="1873" id="13" startFrame="1726">
+			<frame id="16"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="2449" id="14" startFrame="1874">
+			<frame id="17"/>
+			<frame id="18"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="3326" id="15" startFrame="2450">
+			<frame id="19"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="3454" id="16" startFrame="3327">
+			<frame id="20"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="3561" id="17" startFrame="3455">
+			<frame id="21"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="3642" id="18" startFrame="3562">
+			<frame id="22"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="3714" id="19" startFrame="3643">
+			<frame id="23"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="3811" id="20" startFrame="3715">
+			<frame id="24"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="3890" id="21" startFrame="3812">
+			<frame id="25"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="3975" id="22" startFrame="3891">
+			<frame id="26"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="4051" id="23" startFrame="3976">
+			<frame id="27"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="4126" id="24" startFrame="4052">
+			<frame id="28"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="4211" id="25" startFrame="4127">
+			<frame id="29"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="4281" id="26" startFrame="4212">
+			<frame id="30"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="4348" id="27" startFrame="4282">
+			<frame id="31"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="4409" id="28" startFrame="4349">
+			<frame id="32"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="4474" id="29" startFrame="4410">
+			<frame id="33"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="4607" id="30" startFrame="4475">
+			<frame id="34"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="4713" id="31" startFrame="4608">
+			<frame id="35"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="4842" id="32" startFrame="4714">
+			<frame id="36"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="4909" id="33" startFrame="4843">
+			<frame id="37"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="4942" id="34" startFrame="4910">
+			<frame id="38"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="5008" id="35" startFrame="4943">
+			<frame id="39"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="5073" id="36" startFrame="5009">
+			<frame id="40"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="5144" id="37" startFrame="5074">
+			<frame id="41"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="5226" id="38" startFrame="5145">
+			<frame id="42"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="5294" id="39" startFrame="5227">
+			<frame id="43"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="5346" id="40" startFrame="5295">
+			<frame id="44"/>
+		</shot>
+		<shot endFrame="5389" id="41" startFrame="5347">
+			<frame id="45"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="5464" id="42" startFrame="5390">
+			<frame id="46"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="5548" id="43" startFrame="5465">
+			<frame id="47"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="5586" id="44" startFrame="5549">
+			<frame id="48"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="5634" id="45" startFrame="5587">
+			<frame id="49"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="5683" id="46" startFrame="5635">
+			<frame id="50"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="5741" id="47" startFrame="5684">
+			<frame id="51"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="5820" id="48" startFrame="5742">
+			<frame id="52"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="5914" id="49" startFrame="5821">
+			<frame id="53"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6010" id="50" startFrame="5915">
+			<frame id="54"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6136" id="51" startFrame="6011">
+			<frame id="55"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6272" id="52" startFrame="6137">
+			<frame id="56"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6314" id="53" startFrame="6273">
+			<frame id="57"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6361" id="54" startFrame="6315">
+			<frame id="58"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6404" id="55" startFrame="6362">
+			<frame id="59"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6469" id="56" startFrame="6405">
+			<frame id="60"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6606" id="57" startFrame="6470">
+			<frame id="61"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6640" id="58" startFrame="6607">
+			<frame id="62"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6674" id="59" startFrame="6641">
+			<frame id="63"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6716" id="60" startFrame="6675">
+			<frame id="64"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6742" id="61" startFrame="6717">
+			<frame id="65"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6770" id="62" startFrame="6743">
+			<frame id="66"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6813" id="63" startFrame="6771">
+			<frame id="67"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6835" id="64" startFrame="6814">
+			<frame id="68"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6850" id="65" startFrame="6836">
+			<frame id="69"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6863" id="66" startFrame="6851">
+			<frame id="70"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6874" id="67" startFrame="6864">
+			<frame id="71"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6887" id="68" startFrame="6875">
+			<frame id="72"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6896" id="69" startFrame="6888">
+			<frame id="73"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6907" id="70" startFrame="6897">
+			<frame id="74"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6916" id="71" startFrame="6908">
+			<frame id="75"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6929" id="72" startFrame="6917">
+			<frame id="76"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6940" id="73" startFrame="6930">
+			<frame id="77"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6953" id="74" startFrame="6941">
+			<frame id="78"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6958" id="75" startFrame="6954">
+			<frame id="79"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6965" id="76" startFrame="6959">
+			<frame id="80"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6972" id="77" startFrame="6966">
+			<frame id="81"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="6985" id="78" startFrame="6973">
+			<frame id="82"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7028" id="79" startFrame="6986">
+			<frame id="83"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7081" id="80" startFrame="7029">
+			<frame id="84"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7155" id="81" startFrame="7082">
+			<frame id="85"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7198" id="82" startFrame="7156">
+			<frame id="86"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7231" id="83" startFrame="7199">
+			<frame id="87"/>
+			<Properties>
+				<property name="movement" type="string" value="Track">Track</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7457" id="84" startFrame="7232">
+			<frame id="88"/>
+			<Properties>
+				<property name="movement" type="string" value="Track">Track</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7482" id="85" startFrame="7458">
+			<frame id="89"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7579" id="86" startFrame="7483">
+			<frame id="90"/>
+			<Properties>
+				<property name="movement" type="string" value="Track">Track</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7624" id="87" startFrame="7580">
+			<frame id="91"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7673" id="88" startFrame="7625">
+			<frame id="92"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7804" id="89" startFrame="7674">
+			<frame id="93"/>
+			<frame id="94"/>
+			<Properties>
+				<property name="movement" type="string" value="Dolly">Dolly</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7859" id="90" startFrame="7805">
+			<frame id="95"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7890" id="91" startFrame="7860">
+			<frame id="96"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7920" id="92" startFrame="7891">
+			<frame id="97"/>
+			<Properties>
+				<property name="movement" type="string" value="Dolly">Dolly</property>
+			</Properties>
+		</shot>
+		<shot endFrame="7945" id="93" startFrame="7921">
+			<frame id="98"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="8195" id="94" startFrame="7946">
+			<frame id="99"/>
+			<Properties>
+				<property name="movement" type="string" value="Dolly">Dolly</property>
+			</Properties>
+		</shot>
+		<shot endFrame="8251" id="95" startFrame="8196">
+			<frame id="100"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="8293" id="96" startFrame="8252">
+			<frame id="101"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="8475" id="97" startFrame="8294">
+			<frame id="102"/>
+			<Properties>
+				<property name="movement" type="string" value="Static">Static</property>
+			</Properties>
+		</shot>
+		<shot endFrame="9024" id="98" startFrame="8476">
+			<frame id="103"/>
+			<frame id="104"/>
+			<frame id="105"/>
+			<Properties>
+				<property name="movement" type="string" value="Track">Track</property>
+			</Properties>
+		</shot>
+	</shots>
+	<scenes>
+		<Scene id="1">
+			<shot order="0" refId="1"/>
+			<shot order="1" refId="2"/>
+			<shot order="2" refId="3"/>
+			<shot order="3" refId="4"/>
+			<shot order="4" refId="5"/>
+			<shot order="5" refId="6"/>
+			<shot order="6" refId="7"/>
+			<shot order="7" refId="8"/>
+			<shot order="8" refId="9"/>
+			<shot order="9" refId="10"/>
+			<shot order="10" refId="11"/>
+			<shot order="11" refId="12"/>
+			<shot order="12" refId="13"/>
+			<shot order="13" refId="14"/>
+			<shot order="14" refId="15"/>
+			<shot order="15" refId="16"/>
+			<shot order="16" refId="17"/>
+			<shot order="17" refId="18"/>
+			<shot order="18" refId="19"/>
+			<shot order="19" refId="20"/>
+			<shot order="20" refId="21"/>
+			<shot order="21" refId="22"/>
+			<shot order="22" refId="23"/>
+			<shot order="23" refId="24"/>
+			<shot order="24" refId="25"/>
+			<shot order="25" refId="26"/>
+			<shot order="26" refId="27"/>
+			<shot order="27" refId="28"/>
+			<shot order="28" refId="29"/>
+			<shot order="29" refId="30"/>
+			<shot order="30" refId="31"/>
+			<shot order="31" refId="32"/>
+			<shot order="32" refId="33"/>
+			<shot order="33" refId="34"/>
+			<shot order="34" refId="35"/>
+			<shot order="35" refId="36"/>
+			<shot order="36" refId="37"/>
+			<shot order="37" refId="38"/>
+			<shot order="38" refId="39"/>
+			<shot order="39" refId="40"/>
+			<shot order="40" refId="41"/>
+			<shot order="41" refId="42"/>
+			<shot order="42" refId="43"/>
+			<shot order="43" refId="44"/>
+			<shot order="44" refId="45"/>
+			<shot order="45" refId="46"/>
+			<shot order="46" refId="47"/>
+			<shot order="47" refId="48"/>
+			<shot order="48" refId="49"/>
+			<shot order="49" refId="50"/>
+			<shot order="50" refId="51"/>
+			<shot order="51" refId="52"/>
+			<shot order="52" refId="53"/>
+			<shot order="53" refId="54"/>
+			<shot order="54" refId="55"/>
+			<shot order="55" refId="56"/>
+			<shot order="56" refId="57"/>
+			<shot order="57" refId="58"/>
+			<shot order="58" refId="59"/>
+			<shot order="59" refId="60"/>
+			<shot order="60" refId="61"/>
+			<shot order="61" refId="62"/>
+			<shot order="62" refId="63"/>
+			<shot order="63" refId="64"/>
+			<shot order="64" refId="65"/>
+			<shot order="65" refId="66"/>
+			<shot order="66" refId="67"/>
+			<shot order="67" refId="68"/>
+			<shot order="68" refId="69"/>
+			<shot order="69" refId="70"/>
+			<shot order="70" refId="71"/>
+			<shot order="71" refId="72"/>
+			<shot order="72" refId="73"/>
+			<shot order="73" refId="74"/>
+			<shot order="74" refId="75"/>
+			<shot order="75" refId="76"/>
+			<shot order="76" refId="77"/>
+			<shot order="77" refId="78"/>
+			<shot order="78" refId="79"/>
+			<shot order="79" refId="80"/>
+			<shot order="80" refId="81"/>
+			<shot order="81" refId="82"/>
+			<shot order="82" refId="83"/>
+			<shot order="83" refId="84"/>
+			<shot order="84" refId="85"/>
+			<shot order="85" refId="86"/>
+			<shot order="86" refId="87"/>
+			<shot order="87" refId="88"/>
+			<shot order="88" refId="89"/>
+			<shot order="89" refId="90"/>
+			<shot order="90" refId="91"/>
+			<shot order="91" refId="92"/>
+			<shot order="92" refId="93"/>
+			<shot order="93" refId="94"/>
+			<shot order="94" refId="95"/>
+			<shot order="95" refId="96"/>
+			<shot order="96" refId="97"/>
+			<shot order="97" refId="98"/>
+		</Scene>
+	</scenes>
+</root>

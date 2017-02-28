@@ -3,7 +3,7 @@
 	<version>0.1</version>
 	<project path="">
 		<icons path="Icons"/>
-		<video id="1" path=""/>
+		<video id="1" path="https://www.youtube.com/watch?v=eMVysV1lp98"/>
 	</project>
 	<header>
 		<actor icon="Actors\Danny.png" id="0" name="Danny" type="person">
@@ -48,7 +48,7 @@
 		</actor>
 		<source>Manual Annotation from Movies !</source>
 		<video fps="30.0" framing="16/9" id="1">
-			<file></file>
+			<file>https://www.youtube.com/watch?v=eMVysV1lp98</file>
 		</video>
 	</header>
 	<frames>

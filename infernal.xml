@@ -3,7 +3,7 @@
 	<version>0.1</version>
 	<project path="">
 		<icons path="Icons"/>
-		<video id="1" path=""/>
+		<video id="1" path="missing"/>
 	</project>
 	<header>
 		<actor icon="Actors\Chan.png" id="0" name="Chan" type="person">

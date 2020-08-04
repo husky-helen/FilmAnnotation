@@ -3,7 +3,7 @@
 	<version>0.1</version>
 	<project path="">
 		<icons path="Icons"/>
-		<video id="1" path="https://www.youtube.com/watch?v=RQSmfzfg2MY"/>
+		<video id="1" path="missing"/>
 	</project>
 	<header>
 		<actor icon="MissingIcon" id="1" name="Red" type="person">
